@@ -190,7 +190,7 @@ module.exports = {
           // build final embed for the new channel
           const finalEmbed = new EmbedBuilder()
             .setDescription(
-              `<a:SilenceX_Nuke:1345621460432982028> **Channel Nuked**\n` +
+              `<a:SilenceX_Nuke:1466462427796471983> **Channel Nuked**\n` +
               `This channel has been nuked by \`${interaction.user.tag}\``
             )
             .setColor(0xff0000)
@@ -227,4 +227,5 @@ module.exports = {
       }
     });
   },
+
 };
