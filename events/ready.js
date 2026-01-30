@@ -12,10 +12,11 @@ module.exports = {
             activities: [{ 
                 name: 'V2 | .gg/stockifyy',  // This is the message your bot will show
                 type: ActivityType.Streaming,  // Set the type to 'STREAMING'
-                url: 'https://www.twitch.tv/'  // Replace this with your actual stream URL
+                url: 'https://www.twitch.tv/Cheapest$tore'  // Replace this with your actual stream URL
             }],
             status: 'idle',  // The bot's status (online, idle, dnd, etc.)
         });
     },
 };
+
 
