@@ -99,7 +99,7 @@ module.exports = {
           `**Robux :** ${formatNumber(beforeTax)} R$ 🎯\n` +
           `**Tax Amount :** -${formatNumber(beforeTaxAmount)} R$\n` +
           (ratePerRobux
-            ? `**Estimasi Harga :** ${formatNumber(robuxAmount)} x ${formatMYR(ratePerRobux)} = ${formatMYR(beforeTaxMYR)} (${formatUSD(beforeTaxUSD)})`
+            ? `**Estimated Price :** ${formatNumber(robuxAmount)} x ${formatMYR(ratePerRobux)} = ${formatMYR(beforeTaxMYR)} (${formatUSD(beforeTaxUSD)})`
             : '')
         )
       );
@@ -116,7 +116,7 @@ module.exports = {
           `**Robux :** ${formatNumber(afterTax)} R$ ✅\n` +
           `**Tax Amount :** -${formatNumber(taxAmount)} R$\n` +
           (ratePerRobux
-            ? `**Estimasi Harga :** ${formatNumber(afterTax)} x ${formatMYR(ratePerRobux)} = ${formatMYR(afterTaxMYR)} (${formatUSD(afterTaxUSD)})`
+            ? `**Estimated Price :** ${formatNumber(afterTax)} x ${formatMYR(ratePerRobux)} = ${formatMYR(afterTaxMYR)} (${formatUSD(afterTaxUSD)})`
             : '')
         )
       );
@@ -148,4 +148,5 @@ module.exports = {
       });
     }
   }
+
 };
