@@ -10,7 +10,7 @@ module.exports = {
         // Set bot status to streaming
         client.user.setPresence({
             activities: [{ 
-                name: 'V2 | .gg/stockifyy',  // This is the message your bot will show
+                name: 'V2 | .gg/stockifys',  // This is the message your bot will show
                 type: ActivityType.Streaming,  // Set the type to 'STREAMING'
                 url: 'https://www.twitch.tv/Cheapest$tore'  // Replace this with your actual stream URL
             }],
@@ -18,5 +18,6 @@ module.exports = {
         });
     },
 };
+
 
 
