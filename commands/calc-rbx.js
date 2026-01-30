@@ -18,7 +18,7 @@ module.exports = {
         .setMinValue(1))
     .addNumberOption(option =>
       option.setName('rate')
-        .setDescription('Rate in MYR per 1 Robux (optional, e.g: 0.019)')
+        .setDescription('Rate in MYR per 1 Robux (optional, e.g: 0.028)')
         .setRequired(false)
         .setMinValue(0.001)),
 
@@ -150,3 +150,4 @@ module.exports = {
   }
 
 };
+
