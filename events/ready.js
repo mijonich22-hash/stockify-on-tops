@@ -14,7 +14,8 @@ module.exports = {
                 type: ActivityType.Streaming,  // Set the type to 'STREAMING'
                 url: 'https://www.twitch.tv/'  // Replace this with your actual stream URL
             }],
-            status: 'online',  // The bot's status (online, idle, dnd, etc.)
+            status: 'idle',  // The bot's status (online, idle, dnd, etc.)
         });
     },
 };
+
